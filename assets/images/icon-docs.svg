@@ -1,0 +1,29 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Translucent fill on front and stacked documents -->
+  <path opacity="0.15" d="M12 8C12 6.34315 13.3431 5 15 5H27L35 13V33C35 34.6569 33.6569 36 32 36H15C13.3431 36 12 34.6569 12 33V8Z" fill="url(#paint0_linear)"/>
+
+  <!-- Back stacked document shadow layers -->
+  <path d="M12 10H9C7.34315 10 6 11.3431 6 13V35C6 36.6569 7.34315 38 9 38H27C28.6569 38 30 36.6569 30 35V36" stroke="url(#paint1_linear)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main front document outline -->
+  <path d="M12 8C12 6.34315 13.3431 5 15 5H27L35 13V33C35 34.6569 33.6569 36 32 36H15C13.3431 36 12 34.6569 12 33V8Z" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Folded corner of front document -->
+  <path d="M27 5V11C27 12.1046 27.8954 13 29 13H35" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Document content lines -->
+  <path d="M17 17H24" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M17 22.5H30" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M17 28H27" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="6" y1="5" x2="35" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="6" y1="5" x2="35" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>
