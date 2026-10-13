@@ -1,0 +1,38 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Translucent fill matching template icons -->
+  <path opacity="0.15" d="M7 8C7 6.34315 8.34315 5 10 5H22C23.6569 5 25 6.34315 25 8V37H7V8Z" fill="url(#paint0_linear)"/>
+  <path opacity="0.15" d="M25 16H32C33.6569 16 35 17.3431 35 19V37H25V16Z" fill="url(#paint0_linear)"/>
+
+  <!-- Main tall corporate tower -->
+  <path d="M7 37V8C7 6.34315 8.34315 5 10 5H22C23.6569 5 25 6.34315 25 8V37" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Side annex building -->
+  <path d="M25 16H32C33.6569 16 35 17.3431 35 19V37" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Ground baseline -->
+  <path d="M3.5 37H38.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Main tower windows -->
+  <path d="M11.5 11H14.5M17.5 11H20.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M11.5 16.5H14.5M17.5 16.5H20.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M11.5 22H14.5M17.5 22H20.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M11.5 27.5H14.5M17.5 27.5H20.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Side annex windows -->
+  <path d="M28.5 22H31.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M28.5 27.5H31.5" stroke="url(#paint1_linear)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Entrance door -->
+  <path d="M13.5 37V32.5C13.5 31.9477 13.9477 31.5 14.5 31.5H17.5C18.0523 31.5 18.5 31.9477 18.5 32.5V37" stroke="url(#paint1_linear)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="7" y1="5" x2="35" y2="37" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="7" y1="5" x2="35" y2="37" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>

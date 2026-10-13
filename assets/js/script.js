@@ -115,6 +115,45 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 
 
+// portfolio project modal variables
+const projectItems = document.querySelectorAll("[data-project-item]");
+const projectModalContainer = document.querySelector("[data-project-modal-container]");
+const projectModalCloseBtn = document.querySelector("[data-project-modal-close-btn]");
+const projectOverlay = document.querySelector("[data-project-overlay]");
+
+const projectModalImg = document.querySelector("[data-project-modal-img]");
+const projectModalTitle = document.querySelector("[data-project-modal-title]");
+const projectModalCategory = document.querySelector("[data-project-modal-category]");
+const projectModalText = document.querySelector("[data-project-modal-text]");
+
+const projectModalFunc = function () {
+  projectModalContainer.classList.toggle("active");
+  projectOverlay.classList.toggle("active");
+}
+
+for (let i = 0; i < projectItems.length; i++) {
+  projectItems[i].addEventListener("click", function (event) {
+    event.preventDefault();
+
+    projectModalImg.src = this.querySelector("[data-project-img]").src;
+    projectModalImg.alt = this.querySelector("[data-project-img]").alt;
+    projectModalTitle.innerHTML = this.querySelector("[data-project-title]").innerHTML;
+    projectModalCategory.innerHTML = this.querySelector("[data-project-category]").innerHTML;
+    projectModalText.innerHTML = this.querySelector("[data-project-desc]").innerHTML;
+
+    projectModalFunc();
+    const projectModal = projectModalContainer.querySelector(".project-modal");
+    if (projectModal) projectModal.scrollTop = 0;
+  });
+}
+
+if (projectModalCloseBtn && projectOverlay) {
+  projectModalCloseBtn.addEventListener("click", projectModalFunc);
+  projectOverlay.addEventListener("click", projectModalFunc);
+}
+
+
+
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
