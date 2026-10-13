@@ -133,6 +133,12 @@ const projectModalFunc = function () {
 
 for (let i = 0; i < projectItems.length; i++) {
   projectItems[i].addEventListener("click", function (event) {
+    const href = this.getAttribute("href");
+    if (href && href !== "#") {
+      // Allow direct link redirect (e.g. Figma presentation in a new tab)
+      return;
+    }
+
     event.preventDefault();
 
     projectModalImg.src = this.querySelector("[data-project-img]").src;
