@@ -1,6 +1,13 @@
 'use strict';
 
-
+// Always start at the top of the page when opening or refreshing the website
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+window.addEventListener('load', function () {
+  window.scrollTo(0, 0);
+});
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
